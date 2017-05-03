@@ -1,14 +1,9 @@
-# tldr
+# tl;dr
 ```
 make
 ```
 
-this should create a docker image that you can run a container from with:
-
-```
-docker run yatube
-```
-
+this should create & run a docker image (see it running with `docker ps`)
 
 # what is this?
 
