@@ -1,7 +1,5 @@
 all: run
 
 run:
-	python3.6 yatube.py
-
-i:
-	python3.6 -i yatube.py
+	python3.6 yatube.py &
+	nginx -g 'daemon off;'

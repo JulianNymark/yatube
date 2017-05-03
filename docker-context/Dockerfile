@@ -17,6 +17,6 @@ RUN python3.6 -m pip install -U sanic jinja2
 
 COPY Makefile .
 COPY yatube.py .
-# COPY nginx /etc/nginx
+COPY nginx /etc/nginx
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["make"]

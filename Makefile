@@ -1,5 +1,5 @@
 docker-run: docker-image
-	docker stop yatube || true # stop yatube if already running
+	docker stop -t 1 yatube || true # stop yatube if already running
 	docker run --name yatube -d -p 80:80 --rm yatube
 
 docker-image: docker-context/Dockerfile
