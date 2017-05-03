@@ -5,6 +5,11 @@ make
 
 this should create & run a docker image (see it running with `docker ps`)
 
+## dependencies
+
+- [Docker](https://www.docker.com/)
+- [GNU Make](https://www.gnu.org/software/make/)
+
 # what is this?
 
 yatube is yet another tube.
