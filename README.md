@@ -3,7 +3,11 @@
 make
 ```
 
-this should create & run a docker image (see it running with `docker ps`)
+this should create & run a docker image (see it running with `docker ps`).
+
+You should now be able to visit the website at `localhost`.
+
+**note:** I ask docker to assign the yatube container to port 80 here, so if you have something *else* running at port 80 from before, make sure to stop these other applications so that you can have yatube on port 80 instead :), or you can edit the Makefile to assign yatube to a different port on the host machine... :( )
 
 ## dependencies
 
